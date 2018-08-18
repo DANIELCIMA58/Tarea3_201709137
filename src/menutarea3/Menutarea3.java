@@ -7,6 +7,8 @@ package menutarea3;
 
 import java.util.Scanner;
 
+//////////////// link GITHUB>>>>>>>>>>>>>https://github.com/DANIELCIMA58/Tarea3_201709137.git<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 /**
  *
  * @author marti
@@ -17,11 +19,11 @@ public class Menutarea3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         int op=0;
         while(op<5){
            int opcion;// para seleccionar una opcion
-           System.err.println("MENU");// menu de opciones
+           System.out.println("MENU");// menu de opciones
            System.out.println("1.USUARIOS");
            System.out.println("2.CONTADOR DE DIGITOS REPETIDOS");
            System.out.println("3.TRES NUMEROS DE MAYOR A MENOR");
@@ -56,8 +58,9 @@ public class Menutarea3 {
         
          if(opcion==5){
             System.err.println("GRACIAS POR UTILIZAR EL MENU :)");
+            op=5;
          }
-        opcion=op;
+       
       };// el ciclo se repite si las opciones entre 0 y 4, 5 sale
         
     
